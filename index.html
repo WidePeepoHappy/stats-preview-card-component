@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/styile.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="card">
+      <div class="card__content">
+        <h1 class="card__content--header">
+          Get <span class="card__content--highlight">insights</span> that help
+          your business grow.
+        </h1>
+        <p class="card__content--description">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <ul class="card__content--list">
+          <li class="card__content--item">
+            <h2 class="card__content--item--title">10k+</h2>
+            <p class="card__content--item--description">COMPANIES</p>
+          </li>
+          <li class="card__content--item">
+            <h2 class="card__content--item--title">314</h2>
+            <p class="card__content--item--description">TEMPLATES</p>
+          </li>
+          <li class="card__content--item">
+            <h2 class="card__content--item--title">12M+</h2>
+            <p class="card__content--item--description">QUERIES</p>
+          </li>
+        </ul>
+      </div>
+      <div class="card__image">
+        <picture>
+          <source
+            media="(max-width: 375px)"
+            srcset="./images/image-header-mobile.jpg"
+          />
+          <img
+            src="./images/image-header-desktop.jpg"
+            alt="People working in an office"
+            class="card__image--src"
+          />
+        </picture>
+        <div class="card__image--overlay"></div>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
