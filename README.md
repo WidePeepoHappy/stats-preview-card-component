@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](.design/solution-screenshot.png)
+![Screenshot](.design/solution-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/WidePeepoHappy/stats-preview-card-component)
-- Live Site URL: [Add live site URL here](https://widepeepohappy.github.io/stats-preview-card-component/)
+- Solution URL: [github](https://github.com/WidePeepoHappy/stats-preview-card-component)
+- Live Site URL: [github pages](https://widepeepohappy.github.io/stats-preview-card-component/)
 
 ## My process
 
@@ -90,7 +90,7 @@ Need to learn css/sass more. Kind of stumbling around right now.
 
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - Helped me with images.
+- [MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - Helped me with images.
 
 ## Author
 
