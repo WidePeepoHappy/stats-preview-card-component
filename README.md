@@ -86,7 +86,7 @@ Learned how to use different images for different screen sizes and how to make a
 
 ### Continued development
 
-Need to learn css/sass more. Kind of stumbling around right now.
+Need to learn css/sass more. Kind of stumbling around right now. Also centering of a card looks pretty bad.
 
 ### Useful resources
 

@@ -7,16 +7,24 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   background-color: hsl(233, 47%, 7%);
+  position: relative;
 }
 .card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
   width: 1110px;
-  margin: 50px auto;
+  // margin: auto;
   display: flex;
   border-radius: 10px;
   overflow: hidden;
   background-color: hsl(244, 38%, 16%);
 
   @media (max-width: 375px) {
+    position: unset;
+    transform: unset;
+    margin: 50px auto;
     width: 327px;
     flex-direction: column-reverse;
     text-align: center;

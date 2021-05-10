@@ -7,11 +7,16 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   background-color: #090b1a;
+  position: relative;
 }
 
 .card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
   width: 1110px;
-  margin: 50px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,6 +27,10 @@ body {
 
 @media (max-width: 375px) {
   .card {
+    position: unset;
+    -webkit-transform: unset;
+            transform: unset;
+    margin: 50px auto;
     width: 327px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
