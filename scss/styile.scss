@@ -15,13 +15,12 @@ body {
   left: 50%;
   transform: translate(-50%, 50%);
   width: 1110px;
-  // margin: auto;
   display: flex;
   border-radius: 10px;
   overflow: hidden;
   background-color: hsl(244, 38%, 16%);
 
-  @media (max-width: 375px) {
+  @media (max-width: 1110px) {
     position: unset;
     transform: unset;
     margin: 50px auto;
@@ -33,16 +32,18 @@ body {
   &__content {
     padding: 40px 110px 10px 75px;
 
-    @media (max-width: 375px) {
+    @media (max-width: 1110px) {
       padding: 20px 30px;
     }
 
     &--header {
-      font-size: 36px;
+      font-size: 2rem;
       color: hsl(0, 0%, 100%);
+      margin-bottom: 30px;
 
-      @media (max-width: 375px) {
-        font-size: 26px;
+      @media (max-width: 1110px) {
+        font-size: 1.8em;
+        margin-bottom: 20px;
       }
     }
 
@@ -54,45 +55,58 @@ body {
       font-family: "Lexend Deca", sans-serif;
       color: hsla(0, 0%, 100%, 0.75);
       line-height: 1.6;
-      margin-bottom: 60px;
+      margin-bottom: 90px;
 
-      @media (max-width: 375px) {
-        margin-bottom: 0;
+      @media (max-width: 1110px) {
+        margin-bottom: 40px;
       }
     }
 
     &--list {
-      width: 350px;
+      width: 360px;
       display: flex;
       padding-left: 0;
       padding-right: 10px;
       list-style: none;
       justify-content: space-between;
 
-      @media (max-width: 375px) {
+      @media (max-width: 1110px) {
         flex-direction: column;
         width: auto;
+        margin: 0;
+        padding: 0;
       }
+    }
+
+    &--item {
+      margin-bottom: 30px;
     }
 
     &--item--title {
       color: hsl(0, 0%, 100%);
       margin-bottom: 0;
+      display: block;
+      font-size: 1.4em;
+      font-weight: 700;
     }
 
     &--item--description {
       font-family: "Lexend Deca", sans-serif;
       color: hsla(0, 0%, 100%, 0.6);
       margin-top: 5px;
-      font-size: 12px;
+      font-size: 0.7em;
       letter-spacing: 0.1em;
+
+      @media (max-width: 1110px) {
+        font-family: "Inter", sans-serif;
+      }
     }
   }
 
   &__image {
     position: relative;
 
-    @media (max-width: 375px) {
+    @media (max-width: 1110px) {
       height: 240px;
     }
 
